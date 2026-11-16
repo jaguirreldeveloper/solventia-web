@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Print styling for payment schedule */
+@media print {
+  header, footer, .no-print, button, nav {
+    display: none !important;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+    padding: 20px;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
