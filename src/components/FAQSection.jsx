@@ -19,7 +19,7 @@ export default function FAQSection() {
     },
     {
       q: '¿Existen cobros por apertura, comisiones o pagos por adelantado?',
-      a: 'No. En Mi Préstamo Digital nunca solicitamos depósitos ni cobros por adelantado bajo concepto de apertura, seguro ficticio ni gastos administrativos. El desembolso es íntegro y los términos se formalizan en contrato.'
+      a: 'No. En Solventia nunca solicitamos depósitos ni cobros por adelantado bajo concepto de apertura, seguro ficticio ni gastos administrativos. El desembolso es íntegro y los términos se formalizan en contrato.'
     },
     {
       q: '¿Cómo se realiza la firma del contrato privado?',

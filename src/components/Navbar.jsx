@@ -64,10 +64,10 @@ export default function Navbar({ currentView, setView, selectedPlan, setSelected
             </div>
             <div>
               <span className="text-xl font-extrabold text-slate-900 tracking-tight block leading-tight">
-                Mi Préstamo <span className="text-blue-600">Digital</span>
+                Solvent<span className="text-blue-600">ia</span>
               </span>
               <span className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider block">
-                Préstamos Personales
+                Solvencia Financiera
               </span>
             </div>
           </div>

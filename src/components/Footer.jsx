@@ -16,13 +16,13 @@ export default function Footer({ setView }) {
               </div>
               <div>
                 <span className="text-lg font-bold text-white tracking-tight block">
-                  Mi Préstamo Digital
+                  Solvent<span className="text-blue-400">ia</span>
                 </span>
-                <span className="text-xs text-slate-400">Préstamos personales en Bolivia</span>
+                <span className="text-xs text-slate-400">Solvencia financiera en Bolivia</span>
               </div>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Financiamiento privado responsable. Garantizamos transparencia total mediante contratos privados legalmente respaldados y cronogramas de pago fijos sin penalidades por cancelación anticipada.
+              Financiamiento inteligente y responsable. Garantizamos transparencia total mediante contratos privados legalmente respaldados y cronogramas de pago fijos sin penalidades por cancelación anticipada.
             </p>
             <div className="flex items-center gap-2 text-xs text-emerald-400 font-medium">
               <ShieldCheck className="w-4 h-4" />

@@ -86,11 +86,11 @@ export const LOAN_PLANS = [
 ];
 
 export const COMPANY_INFO = {
-  name: 'Mi Préstamo Digital',
-  subheading: 'Préstamos Personales con Cronograma Claro',
+  name: 'Solventia',
+  subheading: 'Solvencia Financiera Inteligente con Cronograma Claro',
   phone: '+591 712 34567',
   whatsappNumber: '59171234567',
-  email: 'contacto@miprestamodigital.com',
+  email: 'contacto@solventia.com',
   address: 'Av. 6 de Agosto #2170, Edificio Torre Empresarial, Piso 4, La Paz, Bolivia',
   schedule: 'Lunes a Viernes: 08:30 - 18:30 | Sábados: 09:00 - 13:00',
   stats: [

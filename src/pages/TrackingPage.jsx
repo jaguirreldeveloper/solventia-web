@@ -24,7 +24,7 @@ export default function TrackingPage({ setView }) {
   // Load applications from localStorage on mount
   useEffect(() => {
     try {
-      const saved = JSON.parse(localStorage.getItem('mpd_applications') || '[]');
+      const saved = JSON.parse(localStorage.getItem('solventia_applications') || '[]');
       setLocalApplications(saved);
       // If there are submitted applications, select the first one by default for great UX
       if (saved.length > 0) {
@@ -64,7 +64,7 @@ export default function TrackingPage({ setView }) {
     const remainingBalance = enrichedSchedule[pastMonths - 1]?.remainingBalance || principal;
 
     setActiveLoan({
-      code: 'MPD-2026-DEMO',
+      code: 'SLV-2026-DEMO',
       holder: 'Carlos René Morales',
       ci: '4892014 LP',
       planName: 'Préstamo Personal',
@@ -159,7 +159,7 @@ export default function TrackingPage({ setView }) {
               <Search className="w-5 h-5 text-slate-400 absolute left-3.5 top-3.5" />
               <input
                 type="text"
-                placeholder="Ej. MPD-2026-DEMO o tu Cédula de Identidad"
+                placeholder="Ej. SLV-2026-DEMO o tu Cédula de Identidad"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-11 pr-4 py-3 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500 font-medium"
@@ -187,7 +187,7 @@ export default function TrackingPage({ setView }) {
               onClick={loadDemoLoan}
               className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1 rounded-lg font-medium transition"
             >
-              Ver Préstamo Demo Activo (MPD-2026-DEMO)
+              Ver Préstamo Demo Activo (SLV-2026-DEMO)
             </button>
             {localApplications.length > 0 && (
               <button

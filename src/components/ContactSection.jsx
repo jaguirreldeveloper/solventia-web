@@ -135,7 +135,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-bold text-sm">¡Mensaje enviado con éxito!</h4>
                   <p className="text-xs mt-1 text-emerald-700">
-                    Gracias por comunicarte. Un asesor financiero de Mi Préstamo Digital se pondrá en contacto contigo muy pronto.
+                    Gracias por comunicarte. Un asesor financiero de Solventia se pondrá en contacto contigo muy pronto.
                   </p>
                 </div>
               </div>

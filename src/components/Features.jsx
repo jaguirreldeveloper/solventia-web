@@ -39,7 +39,7 @@ export default function Features() {
             Seguridad y Transparencia
           </span>
           <h2 className="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            ¿Por qué elegir <span className="text-blue-600">Mi Préstamo Digital</span>?
+            ¿Por qué elegir <span className="text-blue-600">Solventia</span>?
           </h2>
           <p className="mt-4 text-base text-slate-600 leading-relaxed">
             Eliminamos la incertidumbre de los préstamos tradicionales. Te brindamos seguridad legal, trato cercano y reglas de juego claras desde la primera consulta.

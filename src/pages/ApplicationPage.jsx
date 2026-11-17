@@ -64,9 +64,9 @@ export default function ApplicationPage({
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Generate unique tracking code e.g. MPD-2026-XXXX
+    // Generate unique tracking code e.g. SLV-2026-XXXX
     const randomDigits = Math.floor(1000 + Math.random() * 9000);
-    const code = `MPD-2026-${randomDigits}`;
+    const code = `SLV-2026-${randomDigits}`;
 
     const newApplication = {
       code,
@@ -83,9 +83,9 @@ export default function ApplicationPage({
 
     // Save to localStorage
     try {
-      const existing = JSON.parse(localStorage.getItem('mpd_applications') || '[]');
+      const existing = JSON.parse(localStorage.getItem('solventia_applications') || '[]');
       existing.unshift(newApplication);
-      localStorage.setItem('mpd_applications', JSON.stringify(existing));
+      localStorage.setItem('solventia_applications', JSON.stringify(existing));
     } catch (err) {
       console.error('Error saving application to storage', err);
     }
@@ -557,7 +557,7 @@ export default function ApplicationPage({
                   className="mt-1 accent-blue-600"
                 />
                 <span className="text-xs text-slate-600 leading-relaxed">
-                  Declaro que los datos ingresados son verídicos y autorizo a <strong>Mi Préstamo Digital</strong> a realizar la evaluación crediticia preliminar. Entiendo que las condiciones definitivas se ratificarán en el <strong>contrato privado</strong> respectivo sin ningún cobro por adelantado.
+                  Declaro que los datos ingresados son verídicos y autorizo a <strong>Solventia</strong> a realizar la evaluación crediticia preliminar. Entiendo que las condiciones definitivas se ratificarán en el <strong>contrato privado</strong> respectivo sin ningún cobro por adelantado.
                 </span>
               </label>
             </div>

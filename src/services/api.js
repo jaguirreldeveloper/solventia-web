@@ -1,5 +1,5 @@
 /**
- * Servicio de conexión con la API de Laravel (mi-prestamo-digital-api).
+ * Servicio de conexión con la API de Laravel (Solventia API).
  * Soporta fallback automático a almacenamiento y cálculo local si el backend no está activo.
  */
 
